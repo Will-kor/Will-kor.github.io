@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI 채팅 봇
-permalink: /aibots/
+permalink: docs/_AiBots/aibots/
 ---
 
 <div id="chat-container">
