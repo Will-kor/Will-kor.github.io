@@ -27,7 +27,7 @@ The following actions are explicitly prohibited:
 
 ### Attribution
 
-Any use of the blog's content must include proper attribution to [Your Name or Organization], including a link back to the original content source on this blog.
+Any use of the blog's content must include proper attribution to Will Choi, including a link back to the original content source on this blog.
 
 ### Disclaimer
 
@@ -35,13 +35,13 @@ The content on this blog is provided "as is", without warranties of any kind. Th
 
 ### Governing Law
 
-This license and the use of this blog are governed by [Your Country's Laws].
+This license and the use of this blog are governed by Republic of Korea.
 
 By using this blog, you are agreeing to abide by the terms of this license. If you do not agree with these terms, you must cease using and accessing this blog immediately.
 
 ## Contact Information
 
-For any questions regarding this license or the use of the blog's content, please contact [Your Contact Information].
+For any questions regarding this license or the use of the blog's content, please contact DevByHwang@gmail.com.
 
 ---
 
