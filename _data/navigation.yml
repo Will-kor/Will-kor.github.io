@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Ai봇"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: docs/_AiBots/aibots.md
   - title: "작업 일지"
     url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
