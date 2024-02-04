@@ -12,4 +12,4 @@ permalink: /aibots/
   </div>
 </div>
 
-<script src="docs/_AiBots/script.js"></script>
+<script src="/assets/js/aibotscript.js"></script>
