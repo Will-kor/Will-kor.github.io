@@ -5,7 +5,11 @@ permalink: /aibots/
 ---
 
 <div id="chat-container">
-  <!-- 채팅 인터페이스가 여기에 위치합니다 -->
+  <div id="chat-container">
+  <div id="chat-history"></div>
+  <input type="text" id="user-input" placeholder="메시지를 입력하세요..." />
+  <button id="send-button">보내기</button>
+  </div>
 </div>
 
 <script src="/path/to/your/chatbot/script.js"></script>
