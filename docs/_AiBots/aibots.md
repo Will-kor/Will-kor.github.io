@@ -12,4 +12,4 @@ permalink: /aibots/
   </div>
 </div>
 
-<script src="/path/to/your/chatbot/script.js"></script>
+<script src="docs/_AiBots/script.js"></script>
