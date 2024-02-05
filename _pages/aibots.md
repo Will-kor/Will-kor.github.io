@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aibot
 title: ai봇
 permalink: /aibots/
 ---
