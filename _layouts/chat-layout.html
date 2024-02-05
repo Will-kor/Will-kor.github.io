@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="page__layout">
+  <div class="sidebar">
+    <h2>AI Bots</h2>
+    <ul>
+      {% for bot in site.data.bots %}
+      <li><a href="{{ bot.url }}">{{ bot.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="chat-header">
+      <h2>Chat with Bot</h2>
+    </div>
+    <div class="chat-window">
+      <!-- 채팅 메시지들이 여기에 표시됩니다 -->
+      <div class="message">Hello, how can I assist you today?</div>
+      <input type="text" placeholder="Type your message here..." />
+    </div>
+    <div class="feedback">
+      <h3>Feedback & Suggestions</h3>
+      <textarea placeholder="Leave your feedback or suggestions here..."></textarea>
+      <button>Submit Feedback</button>
+    </div>
+  </div>
+</div>
