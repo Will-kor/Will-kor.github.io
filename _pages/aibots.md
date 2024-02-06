@@ -9,5 +9,3 @@ permalink: /aibots/
   <input type="text" id="user-input" placeholder="메시지를 입력하세요..." />
   <button id="send-button">보내기</button>
 </div>
-
-<script src="/assets/js/aibotscript.js"></script>
