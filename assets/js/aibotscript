@@ -1,35 +1,30 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 메시지 전송 함수
-  function sendMessage(text, sender = 'user') {
+  const sendMessage = (text, sender = 'user') => {
     const chatMessages = document.querySelector('.chat-messages');
     const msgElement = document.createElement('div');
     msgElement.classList.add('message', sender);
     msgElement.textContent = text;
     chatMessages.appendChild(msgElement);
-    chatMessages.scrollTop = chatMessages.scrollHeight; // 스크롤을 가장 아래로
-  }
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  };
 
-  // AI 봇 선택 시 메시지 초기화
   document.querySelectorAll('.sidebar a[data-bot-name]').forEach(item => {
     item.addEventListener('click', function(e) {
       e.preventDefault();
       const selectedBotName = this.getAttribute('data-bot-name');
       document.querySelector('.chat-header h2').textContent = 'Chat with ' + selectedBotName;
-      document.querySelector('.chat-messages').innerHTML = ''; // 메시지 초기화
+      document.querySelector('.chat-messages').innerHTML = '';
       sendMessage('Hello, how can I assist you today?', 'bot');
     });
   });
 
-  // 메시지 전송 이벤트 핸들러
-  document.querySelector('.send-message').addEventListener('click', function() {
+  document.querySelector('.chat-input button').addEventListener('click', function() {
     const inputField = document.querySelector('.chat-input input');
     const messageText = inputField.value.trim();
     if (messageText) {
       sendMessage(messageText, 'user');
-      inputField.value = ''; // 입력 필드 초기화
-      // 여기에 AI 응답 로직 추가...
+      inputField.value = '';
+      // 여기에 AI 응답 로직을 구현하세요...
     }
   });
 });
-</script>
