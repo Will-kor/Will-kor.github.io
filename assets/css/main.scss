@@ -50,3 +50,29 @@ search: false
   }
 }
 
+.chat-messages {
+  margin-bottom: 20px;
+  height: 300px; /* 적절한 높이 설정 */
+  overflow-y: auto;
+}
+
+.message {
+  max-width: 60%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.message.bot {
+  background-color: #666;
+  margin-left: 10px;
+}
+
+.message.user {
+  background-color: #007bff;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+
