@@ -4,13 +4,13 @@ layout: default
 
 <div class="page__layout">
   <div class="sidebar">
-    <h2>AI Bots</h2>
-    <ul>
-      {% for bot in site.data.bots %}
-      <li><a href="{{ bot.url }}">{{ bot.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+  <h2>AI Bots</h2>
+  <ul>
+    {% for bot in site.data.bots %}
+    <li><a href="#" data-bot-name="{{ bot.name }}">{{ bot.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
   <div class="content">
     <div class="chat-header">
