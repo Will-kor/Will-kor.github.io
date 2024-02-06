@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Will Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Read, Do, Feel"
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
