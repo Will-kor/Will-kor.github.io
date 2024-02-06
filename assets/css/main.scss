@@ -47,10 +47,7 @@ search: false
         cursor: pointer;
       }
     }
-  }
-}
-
-.chat-messages {
+    .chat-messages {
   margin-bottom: 20px;
   height: 300px; /* 적절한 높이 설정 */
   overflow-y: auto;
@@ -74,5 +71,5 @@ search: false
   margin-right: 10px;
   margin-left: auto;
 }
-
-
+  }
+}
